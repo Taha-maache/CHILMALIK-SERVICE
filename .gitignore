@@ -1,0 +1,47 @@
+
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+/auth.json
+
+# IDE and editor
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+.phpactor.json
+
+# PHP / Laravel
+/vendor
+/.phpunit.cache
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+
+# Node / frontend
+/node_modules
+/public/build
+/public/hot
+/public/storage
+
+# Storage private data and generated files
+/storage/app/backups/
+/storage/app/public/
+/storage/app/private/
+/storage/*.key
+/storage/pail
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/storage/framework/testing/
+/storage/logs/
+
+# Local SQLite databases
+/database/*.sqlite
+/database/*.sqlite-journal
